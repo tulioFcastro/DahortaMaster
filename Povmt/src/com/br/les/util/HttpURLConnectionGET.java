@@ -4,8 +4,6 @@ package com.br.les.util;
 import android.os.AsyncTask;
 import android.util.Log;
 
-import com.br.les.timeitup.User;
-
 import org.apache.http.HttpResponse;
 import org.apache.http.NameValuePair;
 import org.apache.http.client.ClientProtocolException;
@@ -25,6 +23,8 @@ import java.util.List;
 
 public class HttpURLConnectionGET extends AsyncTask<String, Void, String> {
 
+    private static final String MAIL = "tulio.figueiredo@gmail.com";
+
     public String requestJson(String mail) {
         try {
             return new HttpURLConnectionGET().execute(mail).get();
@@ -33,19 +33,20 @@ public class HttpURLConnectionGET extends AsyncTask<String, Void, String> {
         }
     }
 
-    public void sendPostJson(User user) throws ClientProtocolException, IOException {
+    public void sendPostJson(Cardapio user) throws ClientProtocolException,
+            IOException {
         try {
             DefaultHttpClient httpClient = new DefaultHttpClient();
             HttpPost post = new HttpPost("http://localhost:8080/put_user");
 
             List<NameValuePair> pairs = new ArrayList<NameValuePair>();
             pairs.add(new BasicNameValuePair("data", "mail"));
-            pairs.add(new BasicNameValuePair("mail", user.getEmail()));
+            pairs.add(new BasicNameValuePair("mail", MAIL));
             pairs.add(new BasicNameValuePair("id", "3"));
             post.setEntity(new UrlEncodedFormEntity(pairs));
 
             httpClient.execute(post);
-        } catch (ClientProtocolException e){
+        } catch (ClientProtocolException e) {
             Log.e("PROTOCOL ERROR", e.getMessage());
         } catch (IOException e) {
             Log.e("IO ERROR", e.getMessage());
@@ -77,7 +78,7 @@ public class HttpURLConnectionGET extends AsyncTask<String, Void, String> {
 
             linha = sb.toString();
         } catch (Exception e) {
-            Log.e("GET" , e.getMessage());
+            Log.e("GET", e.getMessage());
         }
 
         return linha;
