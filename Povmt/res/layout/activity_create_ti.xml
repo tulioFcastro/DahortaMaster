@@ -50,6 +50,25 @@
                         android:gravity="center"
                         android:text="Quantidade"
                         android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <TextView
+                        android:id="@+id/TextView22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Descrição"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+                    
+                    
+                    <TextView
+                        android:id="@+id/TextView22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Imagem"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -70,9 +89,22 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:ems="10"
-                        android:inputType="number"
+                        android:inputType="numberDecimal"
                         android:text="0" />
 
+                    <EditText
+                        android:id="@+id/desc_arroz"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="" />
+
+                    <ImageView
+                        android:id="@+id/camera_arroz"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:src="@android:drawable/ic_menu_camera" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -93,9 +125,23 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:ems="10"
-                        android:inputType="number"
+                        android:inputType="numberDecimal"
                         android:text="0" />
 
+                    <EditText
+                        android:id="@+id/desc_batata_doce"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:text="" />
+                    
+                    <ImageView
+                        android:id="@+id/camera_batata_doce"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:src="@android:drawable/ic_menu_camera" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -116,9 +162,23 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:ems="10"
-                        android:inputType="number"
+                        android:inputType="numberDecimal"
                         android:text="0" />
 
+                    <EditText
+                        android:id="@+id/desc_macarrao"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:text="" />
+                    
+                    <ImageView
+                        android:id="@+id/camera_macarrao"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:src="@android:drawable/ic_menu_camera" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -139,9 +199,23 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:ems="10"
-                        android:inputType="number"
+                        android:inputType="numberDecimal"
                         android:text="0" />
 
+                    <EditText
+                        android:id="@+id/desc_lentilha"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:text="" />
+                    
+                    <ImageView
+                        android:id="@+id/camera_lentilha"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:src="@android:drawable/ic_menu_camera" />
                 </LinearLayout>
             </LinearLayout>
 
@@ -179,6 +253,15 @@
                         android:gravity="center"
                         android:text="Quantidade"
                         android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <TextView
+                        android:id="@+id/TextView23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Descrição"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -199,9 +282,23 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:ems="10"
-                        android:inputType="number"
+                        android:inputType="numberDecimal"
                         android:text="0" />
 
+                    <EditText
+                        android:id="@+id/desc_mostarda"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:text="" />
+                    
+                    <ImageView
+                        android:id="@+id/camera_mostarda"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:src="@android:drawable/ic_menu_camera" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -222,9 +319,23 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:ems="10"
-                        android:inputType="number"
+                        android:inputType="numberDecimal"
                         android:text="0" />
 
+                    <EditText
+                        android:id="@+id/desc_tartaro"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:text="" />
+                    
+                    <ImageView
+                        android:id="@+id/camera_tartaro"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:src="@android:drawable/ic_menu_camera" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -245,9 +356,23 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:ems="10"
-                        android:inputType="number"
+                        android:inputType="numberDecimal"
                         android:text="0" />
 
+                    <EditText
+                        android:id="@+id/desc_iogurte"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:text="" />
+                    
+                    <ImageView
+                        android:id="@+id/camera_iogurte"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:src="@android:drawable/ic_menu_camera" />
                 </LinearLayout>
             </LinearLayout>
 
@@ -285,6 +410,15 @@
                         android:gravity="center"
                         android:text="Quantidade"
                         android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <TextView
+                        android:id="@+id/TextView24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Descrição"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -305,9 +439,23 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:ems="10"
-                        android:inputType="number"
+                        android:inputType="numberDecimal"
                         android:text="0" />
 
+                    <EditText
+                        android:id="@+id/desc_tropical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:text="" />
+                    
+                    <ImageView
+                        android:id="@+id/camera_tropical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:src="@android:drawable/ic_menu_camera" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -328,9 +476,23 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:ems="10"
-                        android:inputType="number"
+                        android:inputType="numberDecimal"
                         android:text="0" />
 
+                    <EditText
+                        android:id="@+id/desc_tradicional"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:text="" />
+                    
+                    <ImageView
+                        android:id="@+id/camera_tradicional"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:src="@android:drawable/ic_menu_camera" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -351,9 +513,23 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:ems="10"
-                        android:inputType="number"
+                        android:inputType="numberDecimal"
                         android:text="0" />
 
+                    <EditText
+                        android:id="@+id/desc_dahorta"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:text="" />
+                    
+                    <ImageView
+                        android:id="@+id/camera_dahorta"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:src="@android:drawable/ic_menu_camera" />
                 </LinearLayout>
             </LinearLayout>
 
@@ -391,6 +567,15 @@
                         android:gravity="center"
                         android:text="Quantidade"
                         android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <TextView
+                        android:id="@+id/TextView29"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Descrição"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -411,9 +596,23 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:ems="10"
-                        android:inputType="number"
+                        android:inputType="numberDecimal"
                         android:text="0" />
 
+                    <EditText
+                        android:id="@+id/desc_carne"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:text="" />
+                    
+                    <ImageView
+                        android:id="@+id/camera_carne"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:src="@android:drawable/ic_menu_camera" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -434,9 +633,23 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:ems="10"
-                        android:inputType="number"
+                        android:inputType="numberDecimal"
                         android:text="0" />
 
+                    <EditText
+                        android:id="@+id/desc_frango"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:text="" />
+                    
+                    <ImageView
+                        android:id="@+id/camera_frango"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:src="@android:drawable/ic_menu_camera" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -457,9 +670,23 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:ems="10"
-                        android:inputType="number"
+                        android:inputType="numberDecimal"
                         android:text="0" />
 
+                    <EditText
+                        android:id="@+id/desc_queijo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:text="" />
+                    
+                    <ImageView
+                        android:id="@+id/camera_queijo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:src="@android:drawable/ic_menu_camera" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -480,18 +707,31 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:ems="10"
-                        android:inputType="number"
+                        android:inputType="numberDecimal"
                         android:text="0" />
 
+                    <EditText
+                        android:id="@+id/desc_panqueca"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:text="" />
+                    
+                    <ImageView
+                        android:id="@+id/camera_panqueca"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:src="@android:drawable/ic_menu_camera" />
                 </LinearLayout>
             </LinearLayout>
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/button_send"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Confirmar" />
-
         </LinearLayout>
     </ScrollView>
 

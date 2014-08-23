@@ -33,7 +33,7 @@ public class HttpURLConnectionGET extends AsyncTask<String, Void, String> {
         }
     }
 
-    public void sendPostJson(Cardapio user) throws ClientProtocolException,
+    public void sendPostJson(Menu user) throws ClientProtocolException,
             IOException {
         try {
             DefaultHttpClient httpClient = new DefaultHttpClient();

@@ -6,11 +6,11 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class Cardapio {
+public class Menu {
 
     private List<Item> cardapio;
 
-    public Cardapio() {
+    public Menu() {
         this.setCardapio(new ArrayList<Item>());
         Item temp0 = new Item("Guarnicao");
         this.cardapio.add(temp0);
