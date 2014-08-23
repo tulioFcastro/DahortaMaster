@@ -124,11 +124,6 @@ public class DahortaMaster extends Activity {
                     btCamera_tartaro.setImageBitmap(tempBitmap);
                     // tempBitmap = null;
                 }
-                @Override 
-                public final void onActivityResult(final int requestCode,
-                        final int resultCode, final Intent data) {
-                    
-                }
             }
             
         });

@@ -262,6 +262,16 @@
                         android:gravity="center"
                         android:text="Descrição"
                         android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <TextView
+                        android:id="@+id/TextView25"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Imagem"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
                 </LinearLayout>
 
                 <LinearLayout
@@ -419,6 +429,16 @@
                         android:gravity="center"
                         android:text="Descrição"
                         android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <TextView
+                        android:id="@+id/TextView26"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Imagem"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
                 </LinearLayout>
 
                 <LinearLayout
@@ -576,6 +596,16 @@
                         android:gravity="center"
                         android:text="Descrição"
                         android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <TextView
+                        android:id="@+id/TextView27"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Imagem"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
                 </LinearLayout>
 
                 <LinearLayout
